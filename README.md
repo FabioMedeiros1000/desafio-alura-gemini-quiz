@@ -14,10 +14,6 @@ Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o des
 - **Feedback visual e sonoro:** Ao responder corretamente ou incorretamente, o usuário recebe feedback instantâneo.
 - **Pontuação:** A pontuação do jogador é apresentada no final do quiz.
 - **Desabilitação de respostas após a escolha:** Evita que o jogador altere sua resposta depois de escolher.
-  
-## 🖌️ Estilo
-
-O layout foi desenhado para ser responsivo, garantindo uma experiência agradável em dispositivos móveis e desktops. Utiliza um **gradiente escuro** no fundo, com cores contrastantes que destacam as interações do usuário. O projeto também conta com efeitos visuais para a desativação de botões de resposta e estado de hover nos botões principais.
 
 ## 🎯 Como Rodar o Projeto
 
