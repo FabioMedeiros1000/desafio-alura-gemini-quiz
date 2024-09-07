@@ -1,7 +1,6 @@
 # Quiz Interativo - Desafio Imersão Dev Alura com Google Gemini
 
-Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o desafio promovido pela **Imersão Dev da Alura** em parceria com o **Google Gemini**. O projeto é um quiz dinâmico, onde os jogadores podem escolher categorias, responder perguntas e acompanhar a pontuação em tempo real.
-
+Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o desafio promovido pela **Imersão Dev da Alura** em parceria com o **Google Gemini**. O projeto é um quiz dinâmico, onde os jogadores podem escolher categorias, responder perguntas e verificar a pontuação no final.
 ## 🚀 Tecnologias Utilizadas
 
 - **HTML5**
