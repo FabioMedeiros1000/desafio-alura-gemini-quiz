@@ -37,6 +37,6 @@ O layout foi desenhado para ser responsivo, garantindo uma experiência agradáv
 - **`dados`** Pasta contendo os dados utilizados no projeto.
 - **`audios`** Pasta contendo os áudios utilizados no projeto.
 
-## 🏆 Desafio Imersão Dev Alura
+## 📍 Link da aplicação
 
-Este projeto foi criado como parte de um desafio da Imersão Dev da Alura, que incentiva desenvolvedores a explorarem novas habilidades e criarem projetos interativos.
+[![Link](https://img.shields.io/badge/🔗-Demonstração-blue)](https://desafio-alura-gemini-quiz.vercel.app/)
