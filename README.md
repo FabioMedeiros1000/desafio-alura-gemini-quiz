@@ -13,7 +13,7 @@ Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o des
 - **Categorias dinâmicas:** Os jogadores podem selecionar categorias diferentes para responder perguntas.
 - **Contagem regressiva:** Uma função de temporizador com feedback visual e sonoro para adicionar emoção à jogabilidade.
 - **Feedback visual e sonoro:** Ao responder corretamente ou incorretamente, o usuário recebe feedback instantâneo.
-- **Pontuação:** A pontuação do jogador é atualizada em tempo real, com um botão para verificar os resultados finais.
+- **Pontuação:** A pontuação do jogador é apresentada no final do quiz.
 - **Desabilitação de respostas após a escolha:** Evita que o jogador altere sua resposta depois de escolher.
   
 ## 🖌️ Estilo
@@ -42,12 +42,6 @@ O layout foi desenhado para ser responsivo, garantindo uma experiência agradáv
 - **`script.js`:** Lógica do jogo, contendo as funções de contagem de tempo, sorteio de perguntas, validação de respostas e pontuação.
 - **`dados`** Pasta contendo os dados utilizados no projeto.
 - **`audios`** Pasta contendo os áudios utilizados no projeto.
-
-## 🔮 Próximas Implementações
-
-- Mais categorias de perguntas.
-- Melhorias no design e nas animações de feedback visual.
-- Salvamento da pontuação do usuário no armazenamento local.
 
 ## 🏆 Desafio Imersão Dev Alura
 
