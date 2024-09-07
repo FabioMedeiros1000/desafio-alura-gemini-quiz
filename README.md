@@ -20,12 +20,6 @@ Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o des
 
 O layout foi desenhado para ser responsivo, garantindo uma experiência agradável em dispositivos móveis e desktops. Utiliza um **gradiente escuro** no fundo, com cores contrastantes que destacam as interações do usuário. O projeto também conta com efeitos visuais para a desativação de botões de resposta e estado de hover nos botões principais.
 
-### 🎨 Cores utilizadas:
-
-- **Preto principal:** `#4A403D`
-- **Preto secundário:** `#A69A90`
-- **Branco principal:** `#FFF1C1`
-
 ## 🎯 Como Rodar o Projeto
 
 1. Clone o repositório:
