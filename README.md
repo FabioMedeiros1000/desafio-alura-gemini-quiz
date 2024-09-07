@@ -3,8 +3,8 @@
 Este repositório contém o projeto **Quiz Interativo**, desenvolvido para o desafio promovido pela **Imersão Dev da Alura** em parceria com o **Google Gemini**. O projeto é um quiz dinâmico, onde os jogadores podem escolher categorias, responder perguntas e verificar a pontuação no final.
 ## 🚀 Tecnologias Utilizadas
 
-- **HTML5**
-- **CSS3**
+- **HTML**
+- **CSS**
 - **JavaScript**
 
 ## 🎮 Funcionalidades do Quiz
