@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fonte Roboto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fonte Roboto Mono -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="main.css">
+    <title>Quiz master</title>
+    <link rel="icon" href="favicon.png" type="image/x-icon">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>QUIZ MASTER</h1>
+            <h2>Teste os seus conhecimentos</h2>
+        </header>
+        <main>
+            <section class="seleciona-categorias" id="seleciona-categorias">
+                <p class="seleciona-categorias">Escolha uma categoria e comece a jogar!</p>
+                <div class="seleciona-categorias-botoes" id="seleciona-categorias-botoes">
+                    <button class="btn-ciencia" onclick="pesquisaPergunta('ciencia')">Ciência e Tecnologia</button>
+                    <button class="btn-filmes" onclick="pesquisaPergunta('filmes')">Filmes</button>
+                    <button class="btn-futebol" onclick="pesquisaPergunta('futebol')">Futebol</button>
+                    <button class="btn-musica" onclick="pesquisaPergunta('musica')">Música</button>
+                </div>
+            </section>
+            <section class="perguntas" id="perguntas">
+            </section>
+        </main>
+    </div>
+
+    <script src="dados/ciencia.js"></script>
+    <script src="dados/filmes.js"></script>
+    <script src="dados/futebol.js"></script>
+    <script src="dados/musica.js"></script>
+    <script src="main.js"></script>
+
+</body>
+</html>

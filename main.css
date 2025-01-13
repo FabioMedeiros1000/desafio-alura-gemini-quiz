@@ -1,0 +1,182 @@
+:root {
+    /* Variáveis globais para cores e gradiente */
+    --preto-principal: #000000; 
+    --branco-principal: #FFFFFF;
+    --gradiente-fundo: linear-gradient(90deg, #000000, #090714);
+}
+
+* {
+    /* Remove o padding e a margem de todos os elementos e configura box-sizing para facilitar o controle do layout */
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    /* Definições básicas de estilo para o corpo da página */
+    font-family: "Roboto", sans-serif; /* Fonte principal */
+    font-size: 1rem; /* Tamanho padrão de texto (16px) */
+    text-align: center; /* Centraliza o texto */
+    background: var(--gradiente-fundo) no-repeat; /* Fundo com gradiente definido em :root e sem repetição */
+    height: 100vh; /* Altura total da viewport */
+    color: var(--branco-principal); /* Cor do texto padrão */
+}
+
+.container {
+    /* Define um contêiner centralizado e com largura máxima */
+    max-width: 900px; /* Largura máxima do contêiner */
+    width: 100%; /* Ocupa 100% da largura disponível */
+    margin: 0 auto; /* Centraliza o contêiner horizontalmente */
+}
+
+header {
+    /* Estilo do cabeçalho */
+    padding: 2.5rem 0; /* Espaçamento superior e inferior (40px) */
+    text-align: center; /* Centraliza o texto */
+}
+
+header h1,
+header h2 {
+    /* Estilo compartilhado para os títulos no cabeçalho */
+    font-family: "Roboto Mono", monospace; /* Usa uma fonte monoespaçada */
+    font-weight: 400; /* Define o peso da fonte como regular */
+}
+
+header h1 {
+    /* Tamanho específico para o título principal (h1) */
+    font-size: 2.5rem; /* 40px */
+}
+
+header h2 {
+    /* Tamanho específico para o subtítulo (h2) */
+    font-size: 1rem; /* 16px */
+}
+
+button {
+    /* Estilo para botões gerais */
+    padding: 1rem 1.5rem; /* Padding interno do botão (16px 24px) */
+    border-radius: 0.5rem; /* Bordas arredondadas de 8px */
+    background-color: transparent; /* Fundo transparente */
+    cursor: pointer; /* Indicador de clique */
+    border: 0.125rem solid var(--branco-principal); /* Borda sólida com cor branca (2px) */
+    font-size: 1rem; /* Tamanho da fonte */
+    color: var(--branco-principal); /* Cor do texto branco */
+}
+
+button:hover {
+    /* Estilos aplicados ao passar o mouse sobre os botões */
+    background-color: var(--branco-principal); /* Fundo branco */
+    color: var(--preto-principal); /* Texto preto */
+}
+
+.seleciona-categorias-botoes {
+    /* Layout dos botões de seleção de categorias */
+    display: grid; /* Usa o sistema de grid */
+    grid-template-columns: repeat(4, 1fr); /* Define quatro colunas iguais */
+    column-gap: 16px; /* Espaçamento entre colunas */
+    margin-top: 1rem; /* Margem superior de 16px */
+}
+
+.seleciona-categorias-botoes button {
+    /* Estilo específico para os botões dentro de .seleciona-categorias-botoes */
+    font-size: 1rem; /* Tamanho da fonte */
+}
+
+.perguntas {
+    /* Estilos para a seção de perguntas */
+    margin: 1rem 0; /* Margem superior e inferior de 16px */
+    padding: 1rem; /* Padding interno de 16px */
+    border: 0.125rem solid var(--branco-principal); /* Borda sólida de 2px */
+    border-radius: 0.5rem; /* Bordas arredondadas de 8px */
+    display: none; /* Inicialmente oculto */
+}
+
+.pergunta-container {
+    /* Estilo para o contêiner de perguntas */
+    position: relative; /* Posicionamento relativo para permitir o uso de elementos absolutos */
+}
+
+.pergunta-titulo,
+.pergunta-enunciado,
+.resposta-item,
+.tempo-restante {
+    /* Estilos compartilhados para o título, enunciado, itens de resposta e tempo restante */
+    font-size: 1rem; /* Tamanho da fonte */
+    text-align: left; /* Alinhamento à esquerda */
+}
+
+.resultado-resposta {
+    /* Estilo para o resultado da resposta */
+    text-align: center; /* Alinha o texto ao centro */
+    margin-top: 1rem; /* Margem superior de 16px */
+    font-family: 'Roboto Mono', monospace; /* Fonte monoespaçada */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.pergunta-enunciado {
+    /* Estilo específico para o enunciado da pergunta */
+    margin-bottom: 0.5rem; /* Margem inferior de 8px */
+}
+
+.resposta-item {
+    /* Estilo para cada item de resposta */
+    display: block; /* Exibido como um bloco */
+    width: 100%; /* Ocupa toda a largura */
+    margin-bottom: 0.5rem; /* Margem inferior de 8px */
+}
+
+.tempo-restante {
+    /* Estilo para o temporizador de tempo restante */
+    position: absolute; /* Posicionamento absoluto */
+    top: 0; /* Posicionado no topo */
+    right: 0; /* Posicionado à direita */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.btn-proxima-pergunta,
+.btn-ver-resultado {
+    /* Estilo para os botões de próxima pergunta e ver resultado */
+    margin-top: 0.5rem; /* Margem superior de 8px */
+    font-family: 'Roboto Mono', monospace; /* Fonte monoespaçada */
+    font-weight: bold; /* Texto em negrito */
+}
+
+.resultado-final-titulo {
+    /* Estilo para o título do resultado final */
+    font-family: 'Roboto Mono', monospace; /* Fonte monoespaçada */
+    font-size: 1.5rem; /* Tamanho da fonte (24px) */
+    margin-bottom: 1rem; /* Margem inferior de 16px */
+}
+
+.resposta-item-desativado {
+    /* Estilo para itens de resposta desativados */
+    cursor: not-allowed; /* Cursor indicando que não pode ser clicado */
+    pointer-events: none; /* Desativa todos os eventos do mouse */
+}
+
+.resposta-item-desativado:hover {
+    /* Remove o efeito de hover para itens desativados */
+    background-color: initial; /* Remove a cor de fundo ao passar o mouse */
+}
+
+@media (max-width: 867px) {
+    /* Estilos aplicados em telas menores que 867px */
+    
+    .container {
+        width: 80%; /* Reduz a largura do contêiner em telas menores */
+    }
+
+    .seleciona-categorias-botoes {
+        grid-template-columns: repeat(2, 1fr); /* Ajusta para duas colunas no grid */
+        row-gap: 16px; /* Espaçamento entre as linhas */
+    }
+
+    .perguntas {
+        margin-bottom: 40px; /* Aumenta a margem inferior */
+    }
+
+    body {
+        background-repeat: repeat; /* Permite que o fundo se repita */
+        height: max-content; /* Ajusta a altura para o conteúdo */
+    }
+}
