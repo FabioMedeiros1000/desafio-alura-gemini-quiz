@@ -220,3 +220,4 @@ let dadosMusica = [
         respostaIndex: 0
     }
 ];
+
